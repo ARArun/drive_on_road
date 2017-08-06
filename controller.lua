@@ -22,9 +22,9 @@ function step()
 	elseif(sensingRight ~= 0)then
 		driveAsCar(7,3)
 		log("Turning Left")
-  elseif(robot.motor_ground[1].value < 0.40) then -- no road on my left
+  elseif(robot.motor_ground[1].value > 0.40) then -- no road on my left
     driveAsCar(5,-4)
-  elseif(robot.motor_ground[4].value < 0.40) then -- no road on my right
+elseif(robot.motor_ground[4].value > 0.40) then -- no road on my right
     driveAsCar(5,4)
   else
     driveAsCar(10,0)

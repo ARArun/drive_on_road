@@ -32,7 +32,7 @@
 
   <arena size="4, 4, 1" center="0,0,0.5">
 
-    <floor id="f" source="image" path="senario.png" />
+    <floor id="f" source="image" path="floor_design.png" />
 
     <!--Border walls-->
     <box id="bn" size="0.1, 4, 0.2" movable="false">
